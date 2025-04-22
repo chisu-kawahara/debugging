@@ -2,7 +2,7 @@ function average(list) {
     var sum = 0;
   
     for (var num of list) {
-      sum ++ num;
+      sum += num;
     }
   
     return sum / list.length;
